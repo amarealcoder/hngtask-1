@@ -14,7 +14,11 @@
 .container {
   width: 100%;
   max-width: 1500px;
-  background-color: aqua;
   margin: 0 auto;
+  padding: 1rem;
+}
+@media(min-width:700px){
+  .container {
   padding: 5rem;
+}
 }

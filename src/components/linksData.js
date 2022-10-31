@@ -1,15 +1,16 @@
 export const linksData = [
   {
     id: 'twitter',
-    title: 'Twitter Link',
-    link: 'https://twitter.com/amarealcoder',
-    target: 'blank',
+    name: 'Amarealcoder',
+    link: '',
+    target: '',
+    title: '',
     subtext: '',
   },
 
   {
     id: 'btn_zuri',
-    title: 'Zuri Team',
+    name: 'Zuri Team',
     link: 'https://training.zuri.team/',
     target: 'blank',
     subtext: '',
@@ -17,7 +18,7 @@ export const linksData = [
 
   {
     id: 'book',
-    title: 'Zuri Books',
+    name: 'Zuri Books',
     link: ' http://books.zuri.team ',
     target: 'blank',
     subtext: 'My go to place for all coding and design books',
@@ -25,7 +26,7 @@ export const linksData = [
 
   {
     id: 'book__python',
-    title: 'Python Books',
+    name: 'Python Books',
     link: ' https://books.zuri.team/python-for-beginners?ref_id=amarealcoder',
     target: 'blank',
     subtext:
@@ -34,7 +35,7 @@ export const linksData = [
 
   {
     id: 'pitch',
-    title: 'Background Check for Coders',
+    name: 'Background Check for Coders',
     link: 'https://background.zuri.team',
     target: 'blank',
     subtext:
@@ -43,9 +44,9 @@ export const linksData = [
 
   {
     id: 'book__design',
-    title: 'Design Books',
+    name: 'Design Books',
     link: 'ttps://books.zuri.team/design-rules',
-    target: 'blank',
+    target: 'blank', 
     subtext: 'Equally, checkout the free design book from the Zuri team.',
   },
 ];
