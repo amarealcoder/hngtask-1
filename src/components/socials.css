@@ -1,0 +1,22 @@
+.socials__container {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 3rem auto;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slack {
+  width: 13%;
+  margin-right: 1.5rem;
+}
+
+@media (min-width: 700px) {
+  .slack {
+    width: 50px;
+  }
+  .github {
+    width: 35px;
+  }
+}

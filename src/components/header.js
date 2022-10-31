@@ -1,5 +1,5 @@
 import './header.css';
-import image from './profile__img.png';
+import image from './images/profile__img.png';
 
 const Header = () => {
   return (
