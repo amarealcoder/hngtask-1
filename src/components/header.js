@@ -8,7 +8,9 @@ const Header = () => {
         <img src={image} alt='profile image' id='profile__img' />
       </div>
       <h1 className='name'>Miracle Ugorji</h1>
-      <h2 className='hidden__name' id='slack'>Miracle</h2>
+      <h2 className='hidden__name' id='slack'>
+        Miracle
+      </h2>
     </section>
   );
 };
