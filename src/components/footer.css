@@ -1,0 +1,31 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+footer img, footer p{
+    width: 40%;
+    margin: .5rem 0;
+}
+footer p{
+    text-align: left;
+    font-size: 14px;
+    color: #667085;
+}
+
+@media (min-width: 700px) {
+    footer img, footer p{
+    width: 20%;
+    margin: .5rem 0;
+}
+  footer {
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  footer p{
+    text-align: center;
+    font-size: 16px;
+}
+}

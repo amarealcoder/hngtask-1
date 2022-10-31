@@ -1,4 +1,3 @@
-// import icons from './images/icon.png';
 import slack from './images/slack.png';
 import github from './images/github.png';
 import './socials.css'
