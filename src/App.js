@@ -1,3 +1,4 @@
+import { Footer } from './components/footer';
 import Header from './components/header';
 import { Link } from './components/link';
 import { Socials } from './components/socials';
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Link />
       <Socials />
+      <Footer />
     </div>
   );
 }
