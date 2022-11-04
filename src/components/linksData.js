@@ -45,8 +45,16 @@ export const linksData = [
   {
     id: 'book__design',
     name: 'Design Books',
-    link: 'ttps://books.zuri.team/design-rules',
-    target: 'blank', 
+    link: 'https://books.zuri.team/design-rules',
+    target: 'blank',
     subtext: 'Equally, checkout the free design book from the Zuri team.',
+  },
+
+  {
+    id: 'contact',
+    name: 'Contact me',
+    link: '/contact',
+    target: '',
+    subtext: '',
   },
 ];
