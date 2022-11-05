@@ -1,8 +1,8 @@
 .section {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 4rem 0;
+  padding: 4rem 1rem;
   gap: 3rem;
   text-align: left;
 }
@@ -73,12 +73,31 @@ input[type='checkbox'] {
 }
 button {
   padding: 12px 20px;
-  width: 343px;
-  height: 48px;
+  width: 100%;
+  height: 3rem;
   background: #1570ef;
   border: 1px solid #1570ef;
   border-radius: 8px;
   font-weight: 600;
   font-size: 16px;
   color: #fff;
+}
+@media (min-width: 700px) {
+  .section {
+    max-width: 720px;
+  }
+  .section p {
+    width: 100%;
+  }
+  .name-group {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .name-group div:nth-child(1),
+  .name-group div:nth-child(2) {
+    width: 50%;
+  }
+  input{
+    width: 100%
+  }
 }
