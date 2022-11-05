@@ -9,11 +9,8 @@
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   color: #101828;
-  text-align: center;
+ 
 }
-/* html, body{
-  overflow-x: auto;
-} */
 .container {
   width: 100%;
   max-width: 1500px;

@@ -1,8 +1,10 @@
 .container__img {
   margin-bottom: 1.8rem;
+   text-align: center;
 }
 .name{
     margin-bottom: 4rem;
+     text-align: center;
 }
 .name, .hidden__name {
   font-weight: 700;
